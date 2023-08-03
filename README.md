@@ -12,4 +12,4 @@ rm scala3-3.3.0.zip
 sudo mv -f scala3-3.3.0 /opt
 sudo chown ${USER}:${USER} -R /opt/scala3-3.3.0
 sudo ln -s /opt/scala3-3.3.0 scala
-```SHELL
+```
