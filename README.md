@@ -182,4 +182,6 @@ AAA
                       CCCC
 ```
 
-##
+## if else condition
+
+- The if/else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
