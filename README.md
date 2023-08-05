@@ -21,7 +21,7 @@ sudo ln -s /opt/scala3-3.3.0 scala
 scala --version
 ```
 ```SHELL
-Scala code runner version 3.3.0 -- Copyright 2002-2023, LAMP/EPFL
+Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
 ```
 
 
@@ -44,6 +44,10 @@ scala
 ## first scala program
 
 ```SHELL
+cd $HOME
+```
+
+```SHELL
 mkdir hello-world && cd hello-world && sbt new scala/scala3.g8
 ```
 
@@ -53,26 +57,24 @@ mkdir hello-world && cd hello-world && sbt new scala/scala3.g8
 hello-world
 ```
 
-- compile scala code
+- go to file that have .sbt extension
 
 ```SHELL
-scalac hello-world/src/main/scala/Main.scala
+cd hello-world/hello-world/
 ```
-
-- main method name is hello when you looked at the Main.scala
 
 ```SHELL
-scala hello
-```
+sbt clean && sbt run
+```SHELL
 
 ```SHELL
 Hello world!
 I was compiled by Scala 3. :)
 ```
 
+
+## asdf
+
 ```SHELL
-cd ../
+cd $HOME
 ```
-
-
-## first scala program
