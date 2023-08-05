@@ -14,17 +14,21 @@ sudo chown ${USER}:${USER} -R /opt/scala3-3.3.0
 sudo ln -s /opt/scala3-3.3.0 scala
 ```
 
+## clone project on your local
+
+```SHELL
+cd $HOME && git clone https://github.com/keramiozsoy/scala-101.git && cd scala-101
+```
 
 ## check installed scala
 
 ```SHELL
 scala --version
 ```
+
 ```SHELL
 Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
 ```
-
-
 ## scala-repl
 
 - the scala repl ( READ - EVALUATE - PRINT - LOOP ) is a command-line interpreter that you use a test your scala code on terminal.
@@ -35,20 +39,43 @@ Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
 scala
 ```
 
+- code
+
 ```SHELL
 1 + 2
 ```
 
+- ouput
+
+```SHELL
+val res0: Int = 3
+```
+
+- code
+
+```SHELL
+var a = 2 * 5
+```
+
+- output
+
+```SHELL
+var a: Int = 10
+```
 
 
-## first scala program
+## first scala program with sbt
+
+- The sbt help to run our project when we have one or multiple files
 
 ```SHELL
 cd $HOME
 ```
 
+- create project
+
 ```SHELL
-mkdir hello-world && cd hello-world && sbt new scala/scala3.g8
+sbt new scala/scala3.g8
 ```
 
 - enter project name like below
@@ -60,12 +87,12 @@ hello-world
 - go to file that have .sbt extension
 
 ```SHELL
-cd hello-world/hello-world/
+cd hello-world
 ```
 
 ```SHELL
 sbt clean && sbt run
-```SHELL
+```
 
 ```SHELL
 Hello world!
@@ -73,8 +100,23 @@ I was compiled by Scala 3. :)
 ```
 
 
-## asdf
+## var type 
+
+- var type is immutable.
+
+- run below code. value of variable is changed.
+
 
 ```SHELL
-cd $HOME
+cd $HOME/scala-101/var-type
+```
+
+## val type 
+
+- val type is immutable.
+
+-  run below code which wil not work.
+
+```SHELL
+cd $HOME/scala-101/val-type
 ```
