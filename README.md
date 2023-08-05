@@ -231,6 +231,10 @@ sbt clean && sbt run
 - let's assume that we have got list of numbers and,
 we will print all values. for condition helps to do it.
 
+
+- for -> it starts loop
+- do  -> to do something while for loop continue, like body of for loop
+
 ```SHELL
 cd $HOME/scala-101/for-loop
 ```
@@ -238,3 +242,8 @@ cd $HOME/scala-101/for-loop
 ```SHELL
 sbt clean && sbt run
 ```
+
+## for loop guards condition
+
+Guards which helps when you need to use multiple if expression on for loop.
+
