@@ -1,18 +1,6 @@
 # scala-101
 
-- https://www.scala-lang.org/download
-
-
-```SHELL
-wget https://github.com/lampepfl/dotty/releases/download/3.3.0/scala3-3.3.0.zip
-cd $HOME
-ls -ltr
-unzip scala3-3.3.0.zip
-rm scala3-3.3.0.zip
-sudo mv -f scala3-3.3.0 /opt
-sudo chown ${USER}:${USER} -R /opt/scala3-3.3.0
-sudo ln -s /opt/scala3-3.3.0 scala
-```
+- <https://www.scala-lang.org/download>
 
 ## clone project on your local
 
@@ -29,6 +17,7 @@ scala --version
 ```SHELL
 Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
 ```
+
 ## scala-repl
 
 - the scala repl ( READ - EVALUATE - PRINT - LOOP ) is a command-line interpreter that you use a test your scala code on terminal.
@@ -62,7 +51,6 @@ var a = 2 * 5
 ```SHELL
 var a: Int = 10
 ```
-
 
 ## first scala program with sbt
 
@@ -99,24 +87,101 @@ Hello world!
 I was compiled by Scala 3. :)
 ```
 
-
-## var type 
+## var type
 
 - var type is immutable.
 
 - run below code. value of variable is changed.
 
+```SCALA
+  var a = 0;
+  
+  a = 5;
+```
 
 ```SHELL
 cd $HOME/scala-101/var-type
 ```
 
-## val type 
+```SHELL
+sbt clean && sbt run
+```
+
+## val type
 
 - val type is immutable.
 
--  run below code which wil not work.
+- run below code which wil not work.
 
 ```SHELL
-cd $HOME/scala-101/val-type
+  val a = 0
+
+  a = 5; // wrong
 ```
+
+```SHELL
+cd $HOME/scala-101/val-type/src/main/scala
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+## declaring variable
+
+If you dont want to give type, compiler will understand, no problem
+
+```SCALA
+  // explicit
+  val a:Int = 1
+
+  // implicit; the compiler infers the type
+  val b = 2 
+```
+
+```SHELL
+cd $HOME/scala-101/declaring-variable 
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
+## strings
+
+- You can use one chracter or sencente or multiline to define.
+
+
+```SHELL
+  val first = "AAAA"  // String
+
+  println(first)
+
+  val second = 'B'  // Char
+
+  println(second)
+
+  println(s"Result: $first and $second")  // combine string and char
+
+  println(s"Calculate: ${3 * 5} ") // 
+
+  val multiline = """AAA
+                  BBBBB
+                      CCCC"""
+  println(multiline)
+```
+
+- output
+
+```SHELL
+AAAA
+B
+Result: AAAA and B
+Calculate: 15
+AAA
+                  BBBBB
+                      CCCC
+```
+
+## 
