@@ -15,138 +15,66 @@ sudo ln -s /opt/scala3-3.3.0 scala
 ```
 
 
+## check installed scala
 
-## scala in terminal
+```SHELL
+scala --version
+```
+```SHELL
+Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
+```
 
-- open terminal
+
+## scala-repl
+
+- the scala repl ( READ - EVALUATE - PRINT - LOOP ) is a command-line interpreter that you use a test your scala code on terminal.
+
+- open terminal to open repl
 
 ```SHELL
 scala
 ```
 
-```SCALA
-println("hello world")
-```
-
 ```SHELL
-:quit
-```
-
-
-
-## scala-multiline-mode
-
-
-- If you need to run multiple command you can put your code into between { and }.
-
-- open terminal
-
-```SHELL
-scala
-```
-
-```SCALA
-{
-print("hello world")
-}
-```
-
-```
-print("hello world")
-```
-
-```SCALA
-
-{
-
-print("hello world")
-
 1 + 2
-
-}
 ```
 
-- hit enter
+
+
+## first scala program
 
 ```SHELL
-hello world
-val res3: Int = 3
-```
-
-## declaring variables
-
-- variable in scala must be declared with eather val or var.
-
-- val is immutable
-- var is mutable
-
-```SCALA
-val a = 5
-```
-
-```SCALA
-{
-
-val a = 5
-
-a = 6
-
-}
+cd $HOME
 ```
 
 ```SHELL
--- [E052] Type Error: ----------------------------------------------------------
-5 |a = 6
-  |^^^^^
-  |Reassignment to val a
+mkdir hello-world && cd hello-world && sbt new scala/scala3.g8
 ```
 
-
-
-
-```SCALA
-var b = 10
-```
-
+- enter project name like below
 
 ```SHELL
-{
-
-var b = 10
-
-b = 11
-
-}
+hello-world
 ```
 
-- hit enter
-
-```SCALA
-var b: Int = 11
-b: Int = 11
-```
-
-
-
-
-
-# invoke function
-
-
-```SCALA
-
-{
-  val sentence = "hello world"
-
-  sentence.toUpperCase
-}
-
-```
-
-- hit enter
-
+- go to file that have .sbt extension
 
 ```SHELL
-val sentence: String = hello world
-val res0: String = HELLO WORLD
+cd hello-world/hello-world/
+```
+
+```SHELL
+sbt clean && sbt run
+```SHELL
+
+```SHELL
+Hello world!
+I was compiled by Scala 3. :)
+```
+
+
+## asdf
+
+```SHELL
+cd $HOME
 ```
