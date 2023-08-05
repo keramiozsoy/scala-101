@@ -19,7 +19,7 @@ print("hello world")
 print("hello world")
 ```
 
-```SHELL
+```SCALA
 
 {
 
