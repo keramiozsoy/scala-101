@@ -7,7 +7,7 @@ scala
 ```
 
 ```SCALA
-println('hello world')
+println("hello world")
 ```
 
 ```SHELL
