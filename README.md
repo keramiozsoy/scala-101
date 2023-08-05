@@ -182,8 +182,6 @@ AAA
                       CCCC
 ```
 
-
-
 ```SHELL
 cd $HOME/scala-101/strings
 ```
@@ -191,7 +189,6 @@ cd $HOME/scala-101/strings
 ```SHELL
 sbt clean && sbt run
 ```
-
 
 ## if else condition
 
@@ -213,7 +210,6 @@ sbt clean && sbt run
 x is positive
 ```
 
-
 ```SHELL
 cd $HOME/scala-101/if-else
 ```
@@ -222,15 +218,10 @@ cd $HOME/scala-101/if-else
 sbt clean && sbt run
 ```
 
-
-
-
-
 ## for loop condition
 
 - let's assume that we have got list of numbers and,
 we will print all values. for condition helps to do it.
-
 
 - for -> it starts loop
 - do  -> to do something while for loop continue, like body of for loop
@@ -247,7 +238,6 @@ sbt clean && sbt run
 
 - Guards which helps when you need to use multiple if expression on for loop.
 
-
 ```SHELL
 cd $HOME/scala-101/for-loop-guards
 ```
@@ -258,7 +248,7 @@ sbt clean && sbt run
 
 ## for loop yield condition
 
-- usind yield keyword ( instead of do keyword ) will returns a result after completing of for loop iterations.
+- using yield keyword ( instead of do keyword ) will returns a result after completing of for loop iterations.
 
 ```SHELL
 cd $HOME/scala-101/for-loop-yield
@@ -268,4 +258,19 @@ cd $HOME/scala-101/for-loop-yield
 sbt clean && sbt run
 ```
 
+## match condition
+
+- it helps to find result from options
+
+```SHELL
+cd $HOME/scala-101/match-condition
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+## try-catch-finally
+
+- It is control structure lets you catch exceptions.
 
