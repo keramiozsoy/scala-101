@@ -182,6 +182,59 @@ AAA
                       CCCC
 ```
 
+
+
+```SHELL
+cd $HOME/scala-101/strings
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
 ## if else condition
 
 - The if/else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
+
+```SCALA
+  val x = 10
+  if x < 0 then
+    println("x is negative")
+  else if x == 0 then
+    println ("x is zero")
+  else
+    println("x is positive")
+```
+
+- output
+
+```SHELL
+x is positive
+```
+
+
+```SHELL
+cd $HOME/scala-101/if-else
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
+
+
+
+## for loop condition
+
+- let's assume that we have got list of numbers and,
+we will print all values. for condition helps to do it.
+
+```SHELL
+cd $HOME/scala-101/for-loop
+```
+
+```SHELL
+sbt clean && sbt run
+```
