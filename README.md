@@ -147,10 +147,9 @@ cd $HOME/scala-101/declaring-variable
 sbt clean && sbt run
 ```
 
-
 ## strings
 
-- You can use one chracter or sencente or multiline to define.
+- You can use one character or sentence or multiline to define.
 
 
 ```SHELL
