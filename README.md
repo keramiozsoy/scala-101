@@ -245,5 +245,13 @@ sbt clean && sbt run
 
 ## for loop guards condition
 
-Guards which helps when you need to use multiple if expression on for loop.
+- Guards which helps when you need to use multiple if expression on for loop.
 
+
+```SHELL
+cd $HOME/scala-101/for-loop-guards
+```
+
+```SHELL
+sbt clean && sbt run
+```
