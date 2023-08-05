@@ -255,3 +255,17 @@ cd $HOME/scala-101/for-loop-guards
 ```SHELL
 sbt clean && sbt run
 ```
+
+## for loop yield condition
+
+- usind yield keyword ( instead of do keyword ) will returns a result after completing of for loop iterations.
+
+```SHELL
+cd $HOME/scala-101/for-loop-yield
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
