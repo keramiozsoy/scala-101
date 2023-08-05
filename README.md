@@ -151,7 +151,6 @@ sbt clean && sbt run
 
 - You can use one character or sentence or multiline to define.
 
-
 ```SHELL
   val first = "AAAA"  // String
 
@@ -183,4 +182,4 @@ AAA
                       CCCC
 ```
 
-## 
+##
