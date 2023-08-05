@@ -274,3 +274,26 @@ sbt clean && sbt run
 
 - It is control structure lets you catch exceptions.
 
+```SHELL
+cd $HOME/scala-101/try-catch-finally
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
+## while
+
+- It seems like other loop, (for) it stops loop when condition is founded.
+
+
+```SHELL
+cd $HOME/scala-101/while
+```
+
+```SHELL
+sbt clean && sbt run
+```
+
+
