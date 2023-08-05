@@ -128,3 +128,25 @@ b: Int = 11
 
 
 
+
+
+# invoke function
+
+
+```SCALA
+
+{
+  val sentence = "hello world"
+
+  sentence.toUpperCase
+}
+
+```
+
+- hit enter
+
+
+```SHELL
+val sentence: String = hello world
+val res0: String = HELLO WORLD
+```
