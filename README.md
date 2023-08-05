@@ -32,27 +32,6 @@ println("hello world")
 :quit
 ```
 
-## declaring variables
-
-- variable in scala must be declared with eather val or var.
-
-- val is immutable
-- var is mutable
-
-```SCALA
-val a = 5
-```
-
-```SCALA
-var b = 10
-```
-
-
-
-
-
-
-
 
 
 ## scala-multiline-mode
@@ -85,14 +64,67 @@ print("hello world")
 1 + 2
 
 }
-
 ```
+
+- hit enter
 
 ```SHELL
 hello world
 val res3: Int = 3
 ```
 
-```SHELL
-:quit
+## declaring variables
+
+- variable in scala must be declared with eather val or var.
+
+- val is immutable
+- var is mutable
+
+```SCALA
+val a = 5
 ```
+
+```SCALA
+{
+
+val a = 5
+
+a = 6
+
+}
+```
+
+```SHELL
+-- [E052] Type Error: ----------------------------------------------------------
+5 |a = 6
+  |^^^^^
+  |Reassignment to val a
+```
+
+
+
+
+```SCALA
+var b = 10
+```
+
+
+```SHELL
+{
+
+var b = 10
+
+b = 11
+
+}
+```
+
+- hit enter
+
+```SCALA
+var b: Int = 11
+b: Int = 11
+```
+
+
+
