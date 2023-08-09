@@ -1,6 +1,12 @@
 # scala-101
 
-- <https://www.scala-lang.org/download>
+## resource
+
+- https://docs.scala-lang.org
+
+## install scala3
+
+- https://www.scala-lang.org/download
 
 ## clone project on your local
 
@@ -52,7 +58,7 @@ var a = 2 * 5
 var a: Int = 10
 ```
 
-## first scala program with sbt
+## create your first scala program with sbt tool
 
 - The sbt help to run our project when we have one or multiple files
 
@@ -296,4 +302,31 @@ cd $HOME/scala-101/while
 sbt clean && sbt run
 ```
 
+
+
+## domain modeling ( TODO )
+
+- Scala supports two paradigms. The paradigm means a way of looking at something, set of idea.
+- First paradigm is object-oriented programming
+- Second paradigm is functional programming.
+- We will look at these paradigm later on.
+
+
+
+## methods
+
+A method means a function takes parameters and return a value.
+
+
+```SHELL
+def methodName(param1: Type1, param2: Type2): ReturnType =
+```
+
+```SHELL
+cd $HOME/scala-101/methods
+```
+
+```SHELL
+sbt clean && sbt run
+```
 
