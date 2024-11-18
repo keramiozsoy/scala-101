@@ -1,5 +1,7 @@
 # scala-101
 
+Mastering Scala: Unlock the Power of Functional and Object-Oriented Programming
+
 ## resource
 
 - https://docs.scala-lang.org
