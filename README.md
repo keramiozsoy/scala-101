@@ -10,13 +10,13 @@ Mastering Scala: Unlock the Power of Functional and Object-Oriented Programming
 
 - https://www.scala-lang.org/download
 
-## Clone the project onto your local machine.
+## clone the project onto your local machine.
 
 ```SHELL
 cd $HOME && git clone https://github.com/keramiozsoy/scala-101.git && cd scala-101
 ```
 
-## check installed scala
+## check version
 
 ```SHELL
 scala --version
