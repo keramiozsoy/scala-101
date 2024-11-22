@@ -6,11 +6,11 @@ Mastering Scala: Unlock the Power of Functional and Object-Oriented Programming
 
 - https://docs.scala-lang.org
 
-## install scala3
+## install scala3 on your machine
 
 - https://www.scala-lang.org/download
 
-## clone project on your local
+## Clone the project onto your local machine.
 
 ```SHELL
 cd $HOME && git clone https://github.com/keramiozsoy/scala-101.git && cd scala-101
@@ -21,7 +21,7 @@ cd $HOME && git clone https://github.com/keramiozsoy/scala-101.git && cd scala-1
 ```SHELL
 scala --version
 ```
-
+Output
 ```SHELL
 Scala code runner version 3.3.0 -- lsCopyright 2002-2023, LAMP/EPFL
 ```
