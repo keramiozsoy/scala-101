@@ -6,7 +6,7 @@ Mastering Scala: Unlock the Power of Functional and Object-Oriented Programming
 
 - https://docs.scala-lang.org
 
-## install scala3 on your machine
+## install Scala 3 on your machine
 
 - https://www.scala-lang.org/download
 
