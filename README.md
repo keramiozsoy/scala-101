@@ -332,3 +332,5 @@ cd $HOME/scala-101/methods
 sbt clean && sbt run
 ```
 
+## functions
+
